@@ -1,0 +1,45 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "https://localhost:5001",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "concurrently": "^8.2.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "start:full": "concurrently \"npm run start:server\" \"npm run start:client\"",
+        "start:client": "react-scripts start",
+        "start:server": "cd ../EmailVerification && dotnet run",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^6.1.4",
+        "@testing-library/react": "^14.1.2",
+        "@testing-library/user-event": "^14.5.1",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^24.2.1",
+        "@types/react": "^18.2.66",
+        "@types/react-dom": "^18.2.22",
+        "typescript": "^5.3.3",
+        "web-vitals": "^5.1.0"
+    }
+}

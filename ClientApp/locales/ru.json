@@ -1,0 +1,18 @@
+{
+    "emailVerification": "Подтверждение email",
+    "emailPlaceholder": "Введите ваш email",
+    "sendCode": "Отправить код",
+    "enterCode": "Введите код подтверждения",
+    "codeSentTo": "Код отправлен на",
+    "codePlaceholder": "Введите 6-значный код",
+    "verify": "Подтвердить",
+    "verificationSuccess": "Почта подтверждена!",
+    "emailVerified": "Email подтверждён",
+    "sending": "Отправка...",
+    "verifying": "Проверка...",
+    "resend": {
+        "button": "Отправить код повторно",
+        "sending": "Отправляем...",
+        "wait": "Повторная отправка через {seconds} секунд"
+    }
+}

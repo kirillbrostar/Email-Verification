@@ -1,0 +1,2 @@
+F:\Disk c\рабочий стол\EmailVerification\EmailVerification\EmailVerification.Worker\obj\Debug\EmailVerification.Worker.csproj.AssemblyReference.cache
+F:\Disk c\рабочий стол\EmailVerification\EmailVerification\EmailVerification.Worker\obj\Debug\EmailVerification.Worker.csproj.CoreCompileInputs.cache
